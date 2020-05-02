@@ -45,13 +45,18 @@ public class Movie {
         }
     }
 
+    private Movie movie1;
+    private Movie movie2;
+    private Movie movie3;
+    private Movie movie4;
+    private Movie movie5;
     Movie[] movieList = {
-            Movie movie1 = new Movie("Age of Ultron", true, 12, 3, 6.50),
-            Movie movie2 = new Movie("Captain America: The first avenger", false, 4, 7.30),
-            Movie movie3 = new Movie("The Hulk", true, 15, 2, 5.20),
-            Movie movie4 = new Movie("Avengers: End game", true, 18, 5, 800),
-            Movie movie5 = new Movie("Iron Man 3", false, 4, 6.70);
-    }
+            movie1 = new Movie("Age of Ultron", true, 12, 3, 6.50),
+            movie2 = new Movie("Captain America: The first avenger", false, 4, 7.30),
+            movie3 = new Movie("The Hulk", true, 15, 2, 5.20),
+            movie4 = new Movie("Avengers: End game", true, 18, 5, 800),
+            movie5 = new Movie("Iron Man 3", false, 4, 6.70)
+    };
 
     public boolean ageCheckNeeded() {
         return ageCheck;
